@@ -1,0 +1,32 @@
+/* pages/detail/detail.wxss */
+@import"/wxParse/wxParse.wxss";
+
+.art-header{
+  position: relative;
+  width:100%;
+  height:500rpx;
+  color: #fff;
+}
+.art-image{
+  width:100%;
+  height:100%;
+}
+.art-title{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  font-size: 37rpx;
+  display: block;
+  width:100%;
+  height: 150rpx;
+  background-color: rgba(0, 0, 0, 0.4)
+}
+.art-source{
+  position: absolute;
+  bottom: 8rpx;
+  right:8rpx;
+  font-size: 26rpx;
+}
+.wxParse-script{
+  height:0;
+}

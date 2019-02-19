@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/load/load",
+    
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/user/user"
+  
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "知乎日报",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"pages/img/index.png",
+      "selectedIconPath": "pages/img/index1.png"
+    },
+    {"pagePath":"pages/user/user",
+    "text": "我的",
+    "iconPath": "pages/img/user.png",
+    "selectedIconPath": "pages/img/user1.png"
+  }]
+  }
+}

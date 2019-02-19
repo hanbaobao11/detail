@@ -1,0 +1,11 @@
+<!--pages/user/user.wxml-->
+<view class="container">
+  <view class="user">
+    <image src="{{bgUrl}}" mode="widthFix" class="bgpic"></image>
+    <view class="portraitGroup">
+      <image src="{{userUrl}}" mode="widthFix" class="userpic"></image>
+      <view class="userName">{{userName}}</view>
+    </view>
+  </view>
+</view>
+<view class="settingcon"></view>
